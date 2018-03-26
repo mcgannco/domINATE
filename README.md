@@ -11,7 +11,7 @@ domINATE is a Javascript DOM manipulation library built with vanilla Javascript 
 To incorporate domINATE in your project, first download or clone the Git repo.  Then use webpack to bundle the component files, and finally add the following script to the head tag of your HTML document.
 
 ```javascript
-<script type="text/javascript" src="./lib/jquery_lite.js"></script>
+<script type="text/javascript" src="./lib/domINATE.js"></script>
 ```
 
 #### Core Function ($l)
