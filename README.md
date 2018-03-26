@@ -1,6 +1,8 @@
 ## domINATE
 
 domINATE is a Javascript DOM manipulation library built with vanilla Javascript and the native DOM API.
+
+Live Demonstration: https://mcgannco.github.io/domINATE/
 ***
 #### Functionality:
 * Select / manipulate DOM elements
