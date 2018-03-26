@@ -1,7 +1,7 @@
 module.exports = {
   entry: "./lib/main.js",
   output: {
-  	filename: "./lib/jquery_lite.js"
+  	filename: "./lib/domINATE.js"
   },
   devtool: 'eval-source-map',
 };

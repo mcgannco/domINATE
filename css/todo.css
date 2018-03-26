@@ -1,0 +1,87 @@
+
+
+html{
+    position:relative;
+    font-family: 'Berkshire Swash', cursive;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    min-height:900px;
+    overflow: hidden;
+    background-image: url("../img/test.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+  height: 600px;;
+  background-image: url("../img/test2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: scroll;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  color: black;
+  font-family: 'Berkshire Swash', cursive;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-size: 60px;
+}
+
+.submit-todo {
+margin: 10px;
+background: #8B4513;
+padding-top: 5px;
+padding-bottom: 5px;
+border-radius: 5px;
+border: 1px solid black;
+color: white;
+}
+
+.todo-list {
+  left: 100px;
+}
+
+.formcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.todo-form {
+  display: flex;
+}
+
+.headercontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.todo-input {
+  width: 200px;
+  margin: 10px;
+  border-radius: 5px;
+  padding-left: 10px;
+  border: 1px solid black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #8B4513;
+}
+
+.test {
+  height: 400px;
+  overflow: scroll;
+  width: 500px;
+  margin-top: 80px;
+}
+
+.single-todo {
+  font-size: 20px;
+}
